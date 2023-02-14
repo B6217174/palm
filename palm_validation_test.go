@@ -9,7 +9,7 @@ import (
 
 	"gorm.io/gorm"
 )
-
+//dfdf
 type Disinfection struct {
 	gorm.Model
 	WorkTime	time.Time			`valid:"Past~Date must not be in the past"`
